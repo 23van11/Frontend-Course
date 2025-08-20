@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="generator">
+        <div class="password-container">
+            <h1>Password Generator</h1>
+        </div>
+
+        <form>
+            <label for="input-password-lenght">Largo de la contraseña</label>
+            <div class="range-container">
+                <input type="range" min="1" max="20" id="input-password-lenght" value="8">
+                <h1>8</h1>
+            </div>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="uppercase" checked> Mayúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="lowercase" checked> Minúsculas
+                </label>
+                <label>
+                    <input type="checkbox" id="numbers" checked> Números
+                </label>
+                <label>
+                    <input type="checkbox" id="symbols" checked> Símbolos
+                </label>
+            </div>
+            <button type="submit">¡Generar!</button>
+        </form>
+    </div>
+</body>
+</html>

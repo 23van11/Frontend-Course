@@ -1,0 +1,68 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo del formulario */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilo de la caja de texto */
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo del botón */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de comentarios */
+.comentarios {
+    margin-top: 20px;
+}
+
+/* Estilo de cada comentario */
+.comentario {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo del texto de la fecha */
+.fecha {
+    font-size: 0.9em;
+    color: gray;
+}
+
+/* Estilo del botón de eliminar */
+.boton-eliminar {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-eliminar:hover {
+    background-color: darkred;
+}
