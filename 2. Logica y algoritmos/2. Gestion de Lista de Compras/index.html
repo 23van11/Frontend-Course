@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cafetería</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cafetería Sandoval</h1>
+
+    <div class="form">
+      <label for="productoSelect">Selecciona un café:</label>
+      <select id="productoSelect"></select>
+      <div class="botones">
+        <button onclick="agregarProductoDesdeSelect()">Agregar</button>
+        <button onclick="eliminarProductoDesdeSelect()">Eliminar</button>
+      </div>
+    </div>
+
+    <h2>🛒 Lista de Compras</h2>
+    <ul id="listaProductos"></ul>
+
+    <div class="total">
+      <h3>Total a pagar: $<span id="totalPagar">0.00</span></h3>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
