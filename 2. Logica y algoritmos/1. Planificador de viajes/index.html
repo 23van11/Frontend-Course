@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planificador de Viajes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Planificador de Viajes</h1>
+
+    <form id="formulario-viaje">
+      <label>
+        Destino:
+        <input type="text" id="destino" required />
+      </label>
+      <label>
+        Fecha:
+        <input type="date" id="fecha" required />
+      </label>
+      <label>
+        Transporte:
+        <select id="transporte" required>
+          <option value="avion">Avión</option>
+          <option value="tren">Tren</option>
+          <option value="bus">Bus</option>
+        </select>
+      </label>
+      <label>
+        Personas:
+        <input type="number" id="personas" min="1" value="1" required />
+      </label>
+      <button type="submit">Agregar viaje</button>
+    </form>
+
+    <h2>Itinerario</h2>
+    <ul id="itinerario-lista"></ul>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
