@@ -1,0 +1,81 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #15202b;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background-color: #192734;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px #1da1f2;
+  text-align: center;
+}
+
+.twitter-logo {
+  color: #1da1f2;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: #22303c;
+  color: white;
+}
+
+input::placeholder {
+  color: #8899a6;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1991da;
+}
+
+.error-message {
+  background-color: #ff4d4f;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.note {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: #8899a6;
+}
